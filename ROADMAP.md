@@ -34,10 +34,9 @@ tests, public extend-TTL entrypoint, resource benchmarks.
 
 ## Decisions needed from Tim
 
-1. **Doc set layer.** v3 section 4 shapes the docs v0 book; v4 adds the
-   standard doc set (architecture, limitations, threat-model, pilot templates
-   and the error-sync checker). Build v0 from v3 section 4 plus the v4 layer,
-   or wait for Tim's call.
+1. **Build standard — decided (2026-10-02).** v3 section 6 scopes what the
+   book documents; v4's doc set plus the schoolfees docs are the standard
+   for how it is built (templates, AGENTS.md, CI, checkers).
 
 ## Explicitly out of scope
 
