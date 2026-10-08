@@ -40,3 +40,7 @@ changing config. The code has no built-in contract address.
 Testnet resets can remove this deployment. Check availability immediately before
 a demonstration. The browser-to-wallet flow still needs a manual test; see
 [verification still needed](todo.md).
+
+## Live synthetic contract checks
+
+[CLI/RPC smoke evidence](https://github.com/stellar-invoicepay/invoicepay-contracts/blob/main/docs/LIVE_TESTNET_SMOKE.md) now records successful contract invocations and actual state checks. Browser-wallet end-to-end testing remains pending. No real pilot or audit is claimed.
