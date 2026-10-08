@@ -1,0 +1,12 @@
+[book]
+title = "InvoicePay"
+authors = ["Tim Oyelabi"]
+language = "en"
+src = "src"
+description = "Code-grounded documentation for InvoicePay on Stellar testnet. Synthetic demonstrations only."
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/stellar-invoicepay/invoicepay-docs"
+edit-url-template = "https://github.com/stellar-invoicepay/invoicepay-docs/edit/main/{path}"

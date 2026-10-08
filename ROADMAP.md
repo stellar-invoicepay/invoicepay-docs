@@ -7,17 +7,19 @@ What is next for `invoicepay-docs`, in order. Anything not listed as done is
 
 - [x] Repository governance: AGENTS.md, CONTRIBUTING.md, ROADMAP.md, LICENSE,
       .gitignore, .gitattributes (2026-10-01).
-- [ ] v0 book, written from the real v0 contract code.
+- [x] v0 book, written from the real v0 contract and browser workspace code.
 
 ## Next
 
-- [ ] mdBook configuration (`book.toml`) and `src/SUMMARY.md`.
-- [ ] Pages written from the real contract code once it exists: architecture
+- [x] mdBook configuration (`book.toml`) and `src/SUMMARY.md`.
+- [x] Pages written from the real contract code: architecture
       with every claim pointing at a file, function or test; limitations;
       threat model (STRIDE, with honest "not applicable" entries); pilot
       playbook; PRD; a privacy page on what is and is not stored on-chain.
-- [ ] Dependency-free link checker (`scripts/check-links.mjs`) with tests.
-- [ ] CI (`docs.yml`): link check, checker tests, mdBook build.
+- [x] Dependency-free link checker (`scripts/check-links.mjs`) with regression tests.
+- [x] CI (`docs.yml`): link check, checker tests, mdBook build configured.
+- [ ] mdBook build and remote CI result verified after publication.
+- [ ] Manual browser wallet transaction demonstration and real pilot.
 
 ## Contract scope the book describes
 
@@ -37,6 +39,9 @@ tests, public extend-TTL entrypoint, resource benchmarks.
 1. **Build standard — decided (2026-10-02).** v3 section 6 scopes what the
    book documents; v4's doc set plus the schoolfees docs are the standard
    for how it is built (templates, AGENTS.md, CI, checkers).
+2. **Synthetic deployment authorized (2026-10-08).** The owner allowed testnet
+   demonstrations using made-up data. This does not replace a freelancer/client
+   partner or claim any real pilot. See [deployment](src/deployment.md).
 
 ## Explicitly out of scope
 
