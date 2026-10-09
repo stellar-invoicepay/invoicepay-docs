@@ -1,5 +1,11 @@
 # invoicepay — invoices on Stellar testnet
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="brand/logo-dark.svg">
+  <img src="brand/logo.svg" alt="InvoicePay" height="72">
+</picture>
+
+
 Status: **code-grounded mdBook implemented.** The contract and browser workspace
 implement v0 creation, partial payment, cancellation, refund and receipt lookup.
 Testnet only, no real money, **no real business pilot has happened**. A synthetic

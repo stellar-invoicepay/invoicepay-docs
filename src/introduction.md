@@ -1,5 +1,11 @@
 # InvoicePay
 
+<div class="project-brand">
+  <img class="brand-light" src="brand/logo.svg" alt="InvoicePay" width="360">
+  <img class="brand-dark" src="brand/logo-dark.svg" alt="InvoicePay" width="360">
+</div>
+
+
 InvoicePay records an opaque invoice reference and its payment history on Stellar
 testnet. The invoice document remains off-chain. Tokens move directly from payer
 to freelancer, and refunds move back from the freelancer's own balance.

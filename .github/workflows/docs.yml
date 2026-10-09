@@ -19,3 +19,6 @@ jobs:
         with:
           mdbook-version: '0.4.52'
       - run: mdbook build
+
+      - name: Verify brand assets in the built book
+        run: node scripts/check-brand.mjs --built
